@@ -8,7 +8,7 @@ Overview
 
 *   **Service Application**:
     
-    *   Built with **.NET 6** using **CoreWCF**.
+    *   Built with **.NET 8** using **CoreWCF**.
         
     *   Accessible over HTTPS using BasicHttpBinding.
         
@@ -38,7 +38,7 @@ Getting Started
 
 ### Prerequisites
 
-*   **.NET 6 SDK** (for the service application).
+*   **.NET 8 SDK** (for the service application).
     
 *   **.NET Framework 4.7 development tools** (for the client application).
     
