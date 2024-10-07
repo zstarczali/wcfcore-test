@@ -1,15 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NetFrameworkWsdlClient
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
+            // Proxy létrehozása
+            var client = new CalculatorService.CalculatorClient();
+
+            // Szolgáltatás meghívása
+            int result = client.Add(5, 7);
+            Console.WriteLine("5 + 7 = " + result);
+
+            client.Close();
+
+            Console.ReadLine();
         }
     }
 }
