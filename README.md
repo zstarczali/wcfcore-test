@@ -59,7 +59,7 @@ Getting Started
         
 3.  **Trust the Development Certificate** (Development Environment Only):
     
-    *   bashCopy codedotnet dev-certs https --trust
+    *    ```codedotnet dev-certs https --trust```
         
     *   This allows the service to run over HTTPS without SSL errors.
         
@@ -74,7 +74,7 @@ Getting Started
 
 1.  **Add Service Reference**:
     
-    *   arduinoCopy codehttps://localhost:5001/CalculatorService?wsdl
+    *   https://localhost:5001/CalculatorService?wsdl
         
     *   This generates the necessary proxy classes to invoke the service methods.
         
